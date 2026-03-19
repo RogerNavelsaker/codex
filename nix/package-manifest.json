@@ -9,7 +9,14 @@
     "name": "codex",
     "upstreamName": "codex",
     "entrypoint": "bin/codex.js",
-    "aliases": []
+    "aliases": [
+      {
+        "name": "cod",
+        "args": [
+          "--dangerously-bypass-approvals-and-sandbox"
+        ]
+      }
+    ]
   },
   "dist": {
     "url": "https://registry.npmjs.org/@openai/codex/-/codex-0.115.0.tgz",
