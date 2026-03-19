@@ -9,12 +9,12 @@ Nix packaging for `@openai/codex` using Bun and `bun2nix`.
 - Installed binary: `codex`
 - Upstream executable invoked by Bun: `codex`
 
-## What this repo does
+## What This Repo Does
 
 - Uses `bun.lock` and generated `bun.nix` as the dependency lock surface for Nix
-- Builds an internal Bun application package with `bun2nix`
+- Builds the upstream package as an internal Bun application with `bun2nix`
 - Exposes only the canonical binary name `codex`
-- Provides a GitHub Actions workflow that can sync the pinned npm version
+- Provides a manifest sync script for updating the pinned npm metadata
 
 ## Files
 
@@ -23,9 +23,7 @@ Nix packaging for `@openai/codex` using Bun and `bun2nix`.
 - `nix/package-manifest.json`: pinned package metadata and exposed binary name
 - `scripts/sync-from-npm.ts`: updates pinned npm metadata without changing the canonical output binary
 
-## Usage
+## Notes
 
-```bash
-nix build
-./result/bin/codex --help
-```
+- The default `out` output installs the longform binary name `codex`.
+- The shortform wrapper `cod --dangerously-bypass-approvals-and-sandbox` is available as a separate Nix output, not in the default `out` output.
