@@ -1,4 +1,4 @@
-# codex
+# nixpkg-codex
 
 Nix packaging for `@openai/codex` using Bun and `bun2nix`.
 
