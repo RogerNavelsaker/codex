@@ -20,10 +20,36 @@
   },
   "dist": {
     "url": "https://registry.npmjs.org/@openai/codex/-/codex-0.118.0.tgz",
-    "hash": "sha512-oJhNOsP/Vu7DBUhodpP15z60cCZv3sKORqUn1+pepleqSTmc0zXJZSjz6fQOLzny9Ra6sRcvprFFKmQ3Q6+E6w=="
+    "hash": "sha512-oJhNOsP/Vu7DBUhodpP15z60cCZv3sKORqUn1+pepleqSTmc0zXJZSjz6fQOLzny9Ra6sRcvprFFKmQ3Q6+E6w==",
+    "platforms": {
+      "x86_64-linux": {
+        "package": "@openai/codex-linux-x64",
+        "url": "https://registry.npmjs.org/@openai/codex/-/codex-0.118.0-linux-x64.tgz",
+        "hash": "sha512-vzU2d/gwAmZbf/DnwVzfQiNN3Ri04XpaZiJkHElIvGoqFbdrxRQFYTtslGDISYIO3o+POADZcFZIfamFsZj9yQ==",
+        "targetTriple": "x86_64-unknown-linux-musl"
+      },
+      "aarch64-linux": {
+        "package": "@openai/codex-linux-arm64",
+        "url": "https://registry.npmjs.org/@openai/codex/-/codex-0.118.0-linux-arm64.tgz",
+        "hash": "sha512-YKWmIqLBu9mmBhN3JHQNkLzk0BtAtV6LBPvhnL5eeHkNrChvA6PKrhsjy0O7wvRkiByZY/1dD14qVdAUfxcbiA==",
+        "targetTriple": "aarch64-unknown-linux-musl"
+      },
+      "x86_64-darwin": {
+        "package": "@openai/codex-darwin-x64",
+        "url": "https://registry.npmjs.org/@openai/codex/-/codex-0.118.0-darwin-x64.tgz",
+        "hash": "sha512-iIvrqzsh1iJmVfqyYwLZBiuh0MkN1Suqniz9hBfmRmE6txMWhRVfigb9SMBiOkfCW1C4sjBwLCsCSzg11rvppQ==",
+        "targetTriple": "x86_64-apple-darwin"
+      },
+      "aarch64-darwin": {
+        "package": "@openai/codex-darwin-arm64",
+        "url": "https://registry.npmjs.org/@openai/codex/-/codex-0.118.0-darwin-arm64.tgz",
+        "hash": "sha512-sxq7Q2q9YiJN1wNrzvFRCC5oQKXPVUvu9Ejg6SI/CvyyI9YdtyLTO633wQJALGB7XQfT+3tyM5nNBivnSzLA3Q==",
+        "targetTriple": "aarch64-apple-darwin"
+      }
+    }
   },
   "meta": {
-    "description": "<p align=\"center\"><code>npm i -g @openai/codex</code><br />or <code>brew install --cask codex</code></p> <p align=\"center\"><strong>Codex CLI</strong> is a coding agent from OpenAI that runs locally on your computer. <p align=\"center\">   <img src=\"https://",
+    "description": "Codex CLI is a coding agent from OpenAI that runs locally on your computer.",
     "homepage": "https://github.com/openai/codex#readme",
     "licenseSpdx": "Apache-2.0"
   }
