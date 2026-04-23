@@ -5,7 +5,7 @@
     "": {
       "name": "@rona/nix-codex",
       "dependencies": {
-        "@openai/codex": "0.122.0",
+        "@openai/codex": "0.123.0",
       },
       "devDependencies": {
         "@types/bun": "^1.3.10",
@@ -14,19 +14,19 @@
     },
   },
   "packages": {
-    "@openai/codex": ["@openai/codex@0.122.0", "", { "optionalDependencies": { "@openai/codex-darwin-arm64": "npm:@openai/codex@0.122.0-darwin-arm64", "@openai/codex-darwin-x64": "npm:@openai/codex@0.122.0-darwin-x64", "@openai/codex-linux-arm64": "npm:@openai/codex@0.122.0-linux-arm64", "@openai/codex-linux-x64": "npm:@openai/codex@0.122.0-linux-x64", "@openai/codex-win32-arm64": "npm:@openai/codex@0.122.0-win32-arm64", "@openai/codex-win32-x64": "npm:@openai/codex@0.122.0-win32-x64" }, "bin": { "codex": "bin/codex.js" } }, "sha512-fMQoBo/D9S2/FNHgCMEGnEtG+LIm7ot2PbtpU26pyKDjKS47o9XByNv8gH3X0aDg6A4Algq21laUkFhonkgdsw=="],
+    "@openai/codex": ["@openai/codex@0.123.0", "", { "optionalDependencies": { "@openai/codex-darwin-arm64": "npm:@openai/codex@0.123.0-darwin-arm64", "@openai/codex-darwin-x64": "npm:@openai/codex@0.123.0-darwin-x64", "@openai/codex-linux-arm64": "npm:@openai/codex@0.123.0-linux-arm64", "@openai/codex-linux-x64": "npm:@openai/codex@0.123.0-linux-x64", "@openai/codex-win32-arm64": "npm:@openai/codex@0.123.0-win32-arm64", "@openai/codex-win32-x64": "npm:@openai/codex@0.123.0-win32-x64" }, "bin": { "codex": "bin/codex.js" } }, "sha512-2614Hx8etVCYaLL38s01DHJ+MZSjcQ5bJZVzkjyQIWk49s2um+7pJLmOWWVHOtBDVzsxjligtfn0U5Vm1G4qOg=="],
 
-    "@openai/codex-darwin-arm64": ["@openai/codex@0.122.0-darwin-arm64", "", { "os": "darwin", "cpu": "arm64" }, "sha512-J1rUDdVBgIwpFqwmkjgVWbbAk8oxuw/1JuIGUXJMz7wAsdvEgsVazwndIjQVN1nDtdD6zznlUtl69oPV1hhXcA=="],
+    "@openai/codex-darwin-arm64": ["@openai/codex@0.123.0-darwin-arm64", "", { "os": "darwin", "cpu": "arm64" }, "sha512-pc4SNzbOTQknTY6/9WNIuJcwYFEbObE//2Q9LAf3XmbPOOHEs/NdvTz/kY/QLGP8mMAbWRfs7FV6vVN7tM+tJg=="],
 
-    "@openai/codex-darwin-x64": ["@openai/codex@0.122.0-darwin-x64", "", { "os": "darwin", "cpu": "x64" }, "sha512-VUXZxD/c/v2Mdler7epYJc8EH80fGbAC55QBVaxqSjX6OaoGO1sHqp7Nept1p52jMRtyc3VTv2/hkV1wEy+96w=="],
+    "@openai/codex-darwin-x64": ["@openai/codex@0.123.0-darwin-x64", "", { "os": "darwin", "cpu": "x64" }, "sha512-qVJOS7PLXSL5tatUQ/EkM5kmmJVqepUpJKRtcx3gM8HfzBcMM+VSjUogMdU2fvGXsv2oY6hBoQBvagOMRCB+vQ=="],
 
-    "@openai/codex-linux-arm64": ["@openai/codex@0.122.0-linux-arm64", "", { "os": "linux", "cpu": "arm64" }, "sha512-dtRm+R+BnwEZDFahIMl56tttzE3VtJLt2CuacKpn9ZDs8H9DW5lwGWdTEm94ANWWeyzigFObidQyitgdgwFHow=="],
+    "@openai/codex-linux-arm64": ["@openai/codex@0.123.0-linux-arm64", "", { "os": "linux", "cpu": "arm64" }, "sha512-vpYC4dWG+0hwfyC4SeJayzdFAML3VK0qezgxMjMNt/8eUZlFOrWEijOdTh5h+rf9ylgIBNgVVJXwcnQC/XwhrA=="],
 
-    "@openai/codex-linux-x64": ["@openai/codex@0.122.0-linux-x64", "", { "os": "linux", "cpu": "x64" }, "sha512-GYQBkwER9RPn7spJOwB3f/pTyk3KWKsRI8W+2Dl5H3XSxJJ5aVZeNKBGChSw6lyJWAmuZXssBu037KQx15lsGA=="],
+    "@openai/codex-linux-x64": ["@openai/codex@0.123.0-linux-x64", "", { "os": "linux", "cpu": "x64" }, "sha512-TtFmwDJggXVzSXNHVCu8PQorBBHAnrmAqa2sow+1v+Eb9eOZYrbls82rLgM1qqT31SBXh4nGIC7a/Tlv+tRzUw=="],
 
-    "@openai/codex-win32-arm64": ["@openai/codex@0.122.0-win32-arm64", "", { "os": "win32", "cpu": "arm64" }, "sha512-7SjzC/Xzw7md2//2W03Eid2bgY5LHfKinD6VwgfwLJbYFGsd9LDIduZC/8GABWSDXOgqE2SoZDiD2KwlG63Tkw=="],
+    "@openai/codex-win32-arm64": ["@openai/codex@0.123.0-win32-arm64", "", { "os": "win32", "cpu": "arm64" }, "sha512-4aWBTOrudrx07F7App+geSfWiCpjj6HwTUEILr+fdSFN9t76dtcC/7IEH4IoYwZcszJgPqfm9A7yH38ZwpYvRw=="],
 
-    "@openai/codex-win32-x64": ["@openai/codex@0.122.0-win32-x64", "", { "os": "win32", "cpu": "x64" }, "sha512-0OR/QjqOZ7zX12s6Dh7qy/6H4WZRgFAp529EUg5C7tXj5xXdopi8A9InQfehu4KEJE3Qol2Lj/QBrOcahFXoPg=="],
+    "@openai/codex-win32-x64": ["@openai/codex@0.123.0-win32-x64", "", { "os": "win32", "cpu": "x64" }, "sha512-5swKmvHtzTug+Zk8trFBO81Kw0OBAfOsv/OGiQg+moGBWGn/9WhugRHSoj9gfZwBxRZPb+n2cmz1nICxh4I6XQ=="],
 
     "@types/bun": ["@types/bun@1.3.10", "", { "dependencies": { "bun-types": "1.3.10" } }, "sha512-0+rlrUrOrTSskibryHbvQkDOWRJwJZqZlxrUs1u4oOoTln8+WIXBPmAuCF35SWB2z4Zl3E84Nl/D0P7803nigQ=="],
 
