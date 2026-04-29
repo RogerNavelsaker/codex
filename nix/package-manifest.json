@@ -24,13 +24,13 @@
     "platforms": {
       "x86_64-linux": {
         "package": "@openai/codex-linux-x64",
-        "targetTriple": "x86_64-unknown-linux-gnu",
+        "targetTriple": "x86_64-unknown-linux-musl",
         "url": "https://registry.npmjs.org/@openai/codex/-/codex-0.125.0-linux-x64.tgz",
         "hash": "sha512-K2NTTEeBpz/G+N2x17UGWfauRt3So+ir4f+U/60l5PPnYEJB/w3YZrlXo2G9og8Dm9BqtoBAjoPV74sRv9tWWQ=="
       },
       "aarch64-linux": {
         "package": "@openai/codex-linux-arm64",
-        "targetTriple": "aarch64-unknown-linux-gnu",
+        "targetTriple": "aarch64-unknown-linux-musl",
         "url": "https://registry.npmjs.org/@openai/codex/-/codex-0.125.0-linux-arm64.tgz",
         "hash": "sha512-pPnJoJD6rZ2Iin0zNt/up36bO2/EOp2B+1/rPHu/lSq3PJbT3Fmnfut2kJy5LylXb7bGA2XQbtqOogZzIbnlkA=="
       },
